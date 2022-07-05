@@ -1,0 +1,212 @@
+@font-face {
+  font-family: "KyivTypeIcons-Regular";
+  src: local("KyivTypeIcons-Regular"),
+  url("../../fonts/KyivType-Icons/KyivTypeIcons-Regular.woff") format("woff"),
+  url("../../fonts/KyivType-Icons/KyivTypeIcons-Regular.woff2") format("woff2");
+}
+
+$font-KyivTypeIcons-Regular: "KyivTypeIcons-Regular";
+
+@font-face {
+  font-family: "KyivTypeIcons-Background";
+  src: local("KyivTypeIcons-Background"),
+  url("../../fonts/KyivType-Icons/KyivTypeIcons-Background.woff") format("woff"),
+  url("../../fonts/KyivType-Icons/KyivTypeIcons-Background.woff2") format("woff2");
+}
+
+$font-KyivTypeIcons-Background: "KyivTypeIcons-Background";
+
+@font-face {
+  font-family: "KyivTypeSans-Black";
+  src: local("KyivTypeSans-Black"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Black.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Black.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Black: "KyivTypeSans-Black";
+
+@font-face {
+  font-family: "KyivTypeSans-Black2";
+  src: local("KyivTypeSans-Black2"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Black2.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Black2.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Black2: "KyivTypeSans-Black2";
+
+@font-face {
+  font-family: "KyivTypeSans-Black3";
+  src: local("KyivTypeSans-Black3"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Black3.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Black3.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Black3: "KyivTypeSans-Black3";
+
+@font-face {
+  font-family: "KyivTypeSans-Black-";
+  src: local("KyivTypeSans-Black-"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Black-.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Black-.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Black-: "KyivTypeSans-Black-";
+
+@font-face {
+  font-family: "KyivTypeSans-Bold";
+  src: local("KyivTypeSans-Bold"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Bold.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Bold.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Black-: "KyivTypeSans-Bold";
+
+@font-face {
+  font-family: "KyivTypeSans-Bold-";
+  src: local("KyivTypeSans-Bold-"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Bold-.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Bold-.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Black-: "KyivTypeSans-Bold-";
+
+@font-face {
+  font-family: "KyivTypeSans-Bold2";
+  src: local("KyivTypeSans-Bold2"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Bold2.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Bold2.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Black-: "KyivTypeSans-Bold2";
+
+@font-face {
+  font-family: "KyivTypeSans-Bold3";
+  src: local("KyivTypeSans-Bold3"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Bold3.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Bold3.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Black-: "KyivTypeSans-Bold3";
+
+
+
+
+
+
+@font-face {
+  font-family: "KyivTypeSans-Light-";
+  src: local("KyivTypeSans-Light-"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Light-.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Light-.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Light-: "KyivTypeSans-Light-";
+
+@font-face {
+  font-family: "KyivTypeSans-Light";
+  src: local("KyivTypeSans-Light"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Light.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Light.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Light: "KyivTypeSans-Light";
+
+@font-face {
+  font-family: "KyivTypeSans-Light2";
+  src: local("KyivTypeSans-Light2"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Light2.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Light2.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Light2: "KyivTypeSans-Light2";
+
+@font-face {
+  font-family: "KyivTypeSans-Light3";
+  src: local("KyivTypeSans-Light3"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Light3.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Light3.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Light3: "KyivTypeSans-Light3";
+
+
+
+
+
+
+@font-face {
+  font-family: "KyivTypeSans-Medium-";
+  src: local("KyivTypeSans-Medium-"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Medium-.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Medium-.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Medium-: "KyivTypeSans-Medium-";
+
+@font-face {
+  font-family: "KyivTypeSans-Medium";
+  src: local("KyivTypeSans-Medium"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Medium.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Medium.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Medium: "KyivTypeSans-Medium";
+
+@font-face {
+  font-family: "KyivTypeSans-Medium2";
+  src: local("KyivTypeSans-Medium2"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Medium2.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Medium2.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Medium2: "KyivTypeSans-Medium2";
+
+@font-face {
+  font-family: "KyivTypeSans-Medium3";
+  src: local("KyivTypeSans-Medium3"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Medium3.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Medium3.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Medium3: "KyivTypeSans-Medium3";
+
+
+
+
+
+@font-face {
+  font-family: "KyivTypeSans-Regular-";
+  src: local("KyivTypeSans-Regular-"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Regular-.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Regular-.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Regular-: "KyivTypeSans-Regular-";
+
+@font-face {
+  font-family: "KyivTypeSans-Regular";
+  src: local("KyivTypeSans-Regular"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Regular.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Regular.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Regular: "KyivTypeSans-Regular";
+
+@font-face {
+  font-family: "KyivTypeSans-Regular2";
+  src: local("KyivTypeSans-Regular2"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Regular2.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Regular2.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Regular2: "KyivTypeSans-Regular2";
+
+@font-face {
+  font-family: "KyivTypeSans-Regular3";
+  src: local("KyivTypeSans-Regular3"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Regular3.woff") format("woff"),
+  url("../../fonts/KyivType-NoVariable/KyivTypeSans-Regular3.woff2") format("woff2");
+}
+
+$font-KyivTypeSans-Regular3: "KyivTypeSans-Regular3";
+
