@@ -1,0 +1,44 @@
+@import "../../styles/globals/mixins.scss";
+@import "../globals/colors.scss";
+
+.itemsCard {
+  display: flex;
+  flex-wrap: wrap;
+  @include mobile {
+    justify-content: center;
+  }
+}
+
+.singleItem {
+  padding: 20px;
+  width: 280px;
+
+  .image {
+    object-fit: cover;
+    object-position: center; 
+  }
+
+  .title {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+
+  .price {
+    font-size: 30px;
+  }
+
+  button {
+    background-color: transparent;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 5px 0;
+    cursor: pointer;
+  }
+}
+
+.countDown {
+  color: $colorBlue;
+  font-size: 13px;
+  margin: 5px 0;
+}

@@ -1,0 +1,16 @@
+@import "../globals/colors.scss";
+
+.partnersContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image {    
+    padding: 10px;
+    margin: 5px;
+    
+    img {
+        object-fit: cover;
+    }    
+}
