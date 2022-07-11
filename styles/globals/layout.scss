@@ -1,0 +1,136 @@
+@import "../globals/mixins.scss";
+
+body {
+    display: flex;
+    justify-content: center;   
+}
+
+.appContainer {    
+    font-family: "KyivTypeSans-Bold";
+    max-width: 960px;
+  }
+
+.headerContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 30px 0;
+    .hamburgerMenuContainer {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+}
+
+.logo {
+  margin: 40px 0;
+  @include mobile {
+    margin: 20px;
+    width: 70%;
+  }
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-bottom: 40px;
+  @include mobile {
+    width: 100%;
+  }
+  
+  img {
+    padding: 3px;
+  }
+}
+
+.hamburgerMenu {
+  display: none;
+  @include mobile {
+    display: block;
+    height: 1px;
+    padding: 30px;
+    cursor: pointer;
+  }
+  
+
+
+  & .hamburgerLine {
+    width: 20px;
+    height: 2px;
+    display: block;
+    margin-bottom: 3px;
+    background-color: black;
+    transition: .3s all ease-in-out;
+  }
+}
+
+.hamburgerCheckbox {
+  display: none;
+}
+
+.hamburgerCheckbox:checked {
+  ~ .menuContainer {
+    display: flex;
+    align-items: flex-start;
+
+    & div {
+      padding: 15px;
+      border: none;
+    }
+  }
+  ~ .hamburgerMenu span:nth-of-type(1) {
+    transform: rotate(45deg) translate(2px, 5px);
+  }
+  ~ .hamburgerMenu span:nth-of-type(2) {
+    opacity: 0;
+  }
+  ~ .hamburgerMenu span:nth-of-type(3) {
+    transform: rotate(-45deg) translate(2px, -5px);
+  }
+}
+
+.mainMenu {
+  display: block;
+  @include mobile {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    padding: 1px;
+    top: 250px;
+    width: 70%;
+    z-index: 50;
+    background-color: white;
+    box-shadow: 5px 3px 3px black;
+    border: 1px solid black;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid transparent;
+  }
+  a:hover{
+    border-bottom: 4px solid black;
+  }
+}
+
+.show {
+  display: flex;
+}
+
+.mainContainer {
+  padding-top: 20px;
+  width: 960px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  @include mobile {
+    width: 100%;
+  }
+}
+
