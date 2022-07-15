@@ -75,6 +75,8 @@ export default function Auction ({ product }) {
       bidders.push(el.name.split("-"));
     })
 
+    //sortArray
+
     const sortedBidders = bidders.sort(function(a, b) {
       return b[1] - a[1];
     });
@@ -169,8 +171,14 @@ export default function Auction ({ product }) {
                 <h3>Auction history:</h3>
                 <ul>
                   {sortedBidders.map((el, i) => {
+                    //convert letters to asterisks
+                    const arrayOfLetters = [...el[0]];
+                    const indexOfMonkey = arrayOfLetters.indexOf("@");
+                    arrayOfLetters.splice(indexOfMonkey - 3, 3, "*","*","*");
+                    const emailWithAsterisk = arrayOfLetters.join("");
+
                     return (
-                      <li key={i}>{el[0]} - {el[1]}zł</li>
+                      <li key={i}>{emailWithAsterisk} - {el[1]}zł</li>
                     )
                   })}
                 </ul>

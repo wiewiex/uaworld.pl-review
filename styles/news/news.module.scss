@@ -11,10 +11,6 @@
     padding: 10px;
 }
 
-.pageTitle {
-    margin-bottom: 30px;
-}
-
 .post {
     box-sizing: border-box;
     display: flex;
@@ -25,7 +21,6 @@
     align-items: center;
     cursor: pointer;
     border: 2px solid black;
-    // background-color: rgba($color: $colorBlue, $alpha: 0.05);
     box-shadow: 2px 2px 8px black;
     border-radius: 7px;
 }

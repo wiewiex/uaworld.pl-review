@@ -17,7 +17,6 @@ export default function News( {posts} ) {
    
     return (
         <section className={style.postsContainer}>
-            <h1 className={style.pageTitle}>News</h1>
                 {posts.map((post, i) => {
                     return (
                     <Link key={i} href={`https://www.facebook.com/${post.id}`}>

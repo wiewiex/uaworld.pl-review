@@ -19,8 +19,9 @@ export default function partners({images}) {
             <section className={style.partnersContainer}>
                 {images.map((image, i) => {
                     return (
-                        <div key={i} className={style.image}>
+                        <div key={i} className={style.imageContainer}>
                             <Image
+                            className={style.image}
                             src={`/images/partners/${image}`}
                             width={250}
                             height={250}

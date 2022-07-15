@@ -6,12 +6,16 @@
     flex-wrap: wrap;
 }
 
-.image {    
-    padding: 10px;
+.imageContainer {    
+    padding: 2px;
     margin: 20px;
-    box-shadow: 2px 2px 6px black;
+    border: 1px solid black;
+    box-shadow: 2px 2px 8px black;
+    border-radius: 7px;
     
-    img {
+    
+    .image {
         object-fit: cover;
+        border-radius: 7px;
     }    
 }

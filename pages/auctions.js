@@ -33,6 +33,7 @@ export default function Auctions(props) {
     return(
         <section className={style.itemsCard}>
             {allProducts.map(product => {
+
                 return(
                         <Link key={product.id} href={`/auctions/${product.id}`}>
                             <div className={style.singleItem} >

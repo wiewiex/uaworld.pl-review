@@ -6,7 +6,7 @@ const Item = ({ url, id }) => {
     return (
         <Link href={`/ua-art/${id}`}>
             <div className={style.singleItem}>                
-                <Image src={url}
+                <Image className={style.image} src={url}
                 alt="painting"
                 width={300}
                 height={300}

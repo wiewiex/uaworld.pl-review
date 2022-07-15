@@ -1,5 +1,6 @@
 @import "../globals/fonts.scss";
 @import "../globals/colors.scss";
+@import "../globals/mixins.scss";
 
 .contactContainer {
     display: flex;
@@ -11,8 +12,12 @@
     height: 400px;
 
     form {
+        margin-top: 150px;
         align-items: flex-start;
         width: 90%;
+        @include mobile {
+            margin-top: 50px;
+        }
 
         label {
             margin-bottom: 10px;
@@ -23,7 +28,7 @@
             padding: 5px;
             width: 100%;
             border: none;
-            border-bottom: 1px solid $colorWarmYellow;
+            border-bottom: 2px solid $colorWarmYellow;
             margin-bottom: 20px;
             font-family: $font-KyivTypeSans-Regular;
             font-size: 16px;
@@ -34,7 +39,7 @@
             width: 100%;
             padding: 5px;
             border: none;
-            border-bottom: 1px solid $colorWarmYellow;
+            border-bottom: 2px solid $colorWarmYellow;
             margin-bottom: 20px;
             resize: none;
             font-family: $font-KyivTypeSans-Regular;

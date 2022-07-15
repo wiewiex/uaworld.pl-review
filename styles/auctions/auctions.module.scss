@@ -15,16 +15,19 @@
 
   .image {
     object-fit: cover;
-    object-position: center; 
+    object-position: center;
+    border-radius: 20px 20px 0 0;
   }
 
   .title {
     font-size: 20px;
-    margin: 5px 0;
+    margin: 10px 0 0 0;
+    padding-left: 3px;
   }
 
   .price {
     font-size: 30px;
+    padding-left: 3px;
   }
 
   button {
@@ -32,13 +35,16 @@
     width: 100%;
     font-size: 18px;
     font-weight: 600;
-    margin: 5px 0;
+    margin: 15px 0;
     cursor: pointer;
+    border-top: none;
+    border-radius: 0 0 20px 20px;
   }
 }
 
 .countDown {
   color: $colorBlue;
+  padding-left: 3px;
   font-size: 13px;
   margin: 5px 0;
 }

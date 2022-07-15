@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { useSelector } from "react-redux";
 import { FetchUserData } from './myprofile/fetchUserData';
+import { useRef, useState } from 'react';
 
 export default function Layout(props) {
 
@@ -13,18 +14,21 @@ export default function Layout(props) {
     const currentUser = useSelector(state => state.user);
 
     
-    //menu
+    //mobile menu
+
+    const [hideOrShow, setHideorShow] = useState("");
+    const menu = useRef();
+    const checkbox = useRef();
+
     const handleChange = (e) => {
-        const menu = document.getElementById("mainMenu");
-        menu.classList.toggle("show");
+
+        setHideorShow(checkbox.current.checked ? "show" : "");
     }
 
     const handleClick = (e) => {
-        e.preventDefault;
-        const menu = document.getElementById("mainMenu");
-        const checkbox = document.querySelector(".hamburgerCheckbox");
-        checkbox.checked = false;
-        menu.classList.remove("show");
+
+        checkbox.current.checked = false;
+        setHideorShow("");
     }
 
     return (
@@ -53,14 +57,14 @@ export default function Layout(props) {
                     <Link href="https://t.me/+zJx3I_HebOVmZTIy"><img src='/images/telegram.svg'/></Link>
                 </div>
                 <div className='hamburgerMenuContainer'>
-                    <input onChange={handleChange} type="checkbox" id="hamburger" className="hamburgerCheckbox"/>
+                    <input ref={checkbox} onChange={handleChange} type="checkbox" id="hamburger" className="hamburgerCheckbox"/>
                     <label htmlFor="hamburger" className="hamburgerMenu">
                         <span className="hamburgerLine"> </span>
                         <span className="hamburgerLine"> </span>
                         <span className="hamburgerLine"> </span>
                     </label>
                 </div>
-            <nav id="mainMenu" className="mainMenu">
+            <nav rev={menu} className={`mainMenu ${hideOrShow}`}>
                     <Link href="/"><a onClick={handleClick}>UA Art</a></Link>
                     <Link href="/news"><a onClick={handleClick}>News</a></Link>
                     <Link href="/auctions"><a onClick={handleClick}>Auctions</a></Link>
